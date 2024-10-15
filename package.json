@@ -29,7 +29,7 @@
     "cross-env": "^7.0.3",
     "file-loader": "^6.2.0",
     "gh-pages": "^5.0.0",
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.0"
   },
   "dependencies": {
     "cm523-unit-tests": "github:ProfessorKolodziej/cm523-unit-tests",

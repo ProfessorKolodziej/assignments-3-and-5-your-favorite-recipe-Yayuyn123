@@ -1,11 +1,258 @@
-@media screen and (width >= 320px) {
-	#some-id {
-		color: red;
-	}
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap');
+
+*{
+    box-sizing: border-box;
 }
 
-@media screen and (width >= 500px) {
-	#some-id {
-		color: red;
-	}
+body {
+    background-color: #FFE7E7;
+    font-family: 'BioRhyme', sans-serif;
+}
+
+.page-title {
+    text-align:center;
+    vertical-align:top;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -100px;
+    margin-right: 1000px;
+}
+
+.sub-heading {
+    color: #000;
+    font-family: BioRhyme;
+    font-size: 24px;
+    font-weight: 500;
+    line-height:normal;
+    text-align: left;
+    margin-left: 680px;
+    margin-top: -50px;
+    margin-right:1660px;
+}
+
+.img1 {
+    height: 300px;
+    width:580px;
+    flex-shrink: 0;
+    align-self: stretch;
+    background: #FFE6E6;
+    margin-top: -70px;
+    margin-bottom: -120px;
+}
+
+.pre {
+    width: 1700px;
+    height: 120px;
+    font-family: BioRhyme;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: normal;
+    margin-left:100px;
+}
+
+h2 {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 135px;
+    background-color: white;
+    margin-right: 1850px;
+    margin-bottom: -40px;
+    text-indent:20px;
+    border: 10px solid green;
+    display:block;
+    border-bottom:white;
+    border-left:white;
+    border-right:white;
+    box-shadow:2px 2px #1E1E1E;
+}
+
+ul {
+    list-style-type: disc;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 135px;
+    margin-right:1850px;
+    background-color: white;
+    box-shadow:2px 2px #1E1E1E;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+
+}
+
+.all-apples {
+    margin-right: 760px;
+}
+
+.oil-frying {
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.powder-sugar {
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.ingredient-image {
+    width: 650px;
+    height: 827px;
+    flex-shrink: 0;
+    position:absolute;
+    left:800px;
+    top:980px;
+}
+
+ol {
+    width: 1381px;
+    height: 873px;
+    flex-shrink: 0;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: white;
+    margin-left:135px;
+    box-shadow:2px 2px #1E1E1E;
+}
+
+ol li {
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    position:relative;
+    left:670px;
+    margin-right:720px;
+}
+
+.ingredient-step {
+    width: 600px;
+    height: 763px;
+    flex-shrink: 0;
+    position:absolute;
+    left:200px;
+    top:2250px;
+}
+
+.tips {
+    width: 1700px;
+    height: 120px;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: normal;
+    margin-left:100px;
+}
+
+/* iPad Pro 11" (834px wide) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .page-title {
+        font-size: 56px;
+    }
+
+    .sub-heading {
+        font-size: 28px;
+    }
+
+    ul {
+        font-size: 32px;
+    }
+
+    ul li {
+        font-size: 28px;
+    }
+
+    ol {
+        font-size: 32px;
+    }
+
+    ol li {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    .pre {
+        font-size: 28px;
+    }
+
+    .ingredient-image {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .ingredient-step {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .tips {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+/* iPhone SE (320px wide) */
+@media screen and (max-width: 375px) {
+    .page-title {
+        font-size: 48px;
+        margin-right: 0;
+    }
+
+    .sub-heading {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    ul {
+        font-size: 24px;
+    }
+
+    ul li {
+        font-size: 20px;
+    }
+
+    ol {
+        font-size: 24px;
+    }
+
+    ol li {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .pre {
+        font-size: 20px;
+    }
+
+    .ingredient-image {
+        max-width: 100%;
+    }
+
+    .ingredient-step {
+        max-width: 100%;
+    }
 }
